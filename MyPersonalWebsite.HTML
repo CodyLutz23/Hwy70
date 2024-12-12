@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HWY 70 Documentary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .hero {
+            background-color: #f4f4f4;
+            padding: 3rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .video-embed {
+            margin: 20px auto;
+            max-width: 560px;
+            height: 315px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HWY 70 Documentary</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#documentary">Documentary</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero">
+        <h2>About Me</h2>
+        <p>Hello! I'm Cody Lutz, a photographer and videographer capturing unique stories. My latest project focuses on HWY 70 in Hickory, NC, where car enthusiasts gather to cruise, perform stunts, and connect in a vibrant community.</p>
+        <p>Follow me on Instagram: <a href="https://instagram.com/c.lutz.photography" target="_blank">c.lutz.photography</a></p>
+    </section>
+
+    <section id="documentary">
+        <h2>About the Documentary</h2>
+        <p>HWY 70 is not just a road; it’s a culture. This documentary captures the essence of the strip where people cruise, do burnouts, donuts, fight, and hang out at Walmart. It's a raw and unfiltered look at a community's passion for cars and the thrill of the night.</p>
+        <p>Featured on Hickory Daily Record and Channel 9 News, this project shines a spotlight on the stories of HWY 70.</p>
+        <div class="video-embed">
+            <iframe width="560" height="315" src="https://hickoryrecord.com/video/news/russell-boutin-films-a-car-spinning-circles-around-three-people/video_c54cc203-fe1b-5a3e-b989-7442d50a51a1.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-embed">
+            <iframe width="560" height="315" src="https://hickoryrecord.com/video/news/russell-boutin-explains-purpose-of-u-s-70-documentary/video_fc3e700a-4e0e-56d1-acc0-9fd7a70cb4f9.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-embed">
+            <iframe width="560" height="315" src="https://hickoryrecord.com/video/news/russell-boutin-narrowly-avoid-being-struck-by-a-car-while-filming/video_bce794bb-d453-5126-a9e8-df68f3a5d220.html" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p>Stay tuned for more footage and updates!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-gallery">
+            <img src="https://hickoryrecord.com/news/local/hickory-teens-film-spinning-cars/article_a0c03fec-d575-11ee-a047-23a90b63e7a3.html" alt="Cruising the HWY 70 strip">
+            <img src="hickory_daily_record_2.jpg" alt="Burnouts on HWY 70">
+            <img src="hickory_daily_record_3.jpg" alt="Community gathering at Walmart">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in my work or want to collaborate, feel free to reach out:</p>
+        <p>Email: <a href="mailto:cody.lutz23@gmail.com">cody.lutz23@gmail.com</a></p>
+        <p>Follow me on social media for updates:</p>
+        <ul>
+            <li><a href="https://instagram.com/c.lutz.photography" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HWY 70 Documentary by Cody Lutz</p>
+    </footer>
+</body>
+</html>
